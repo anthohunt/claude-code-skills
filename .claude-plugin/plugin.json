@@ -1,0 +1,7 @@
+{
+  "name": "work-methods",
+  "version": "0.1.0",
+  "description": "35 reusable skills for Claude Code: thinking and challenging (think, adverse, honest, self-reflect), checking (monitor, confirm-external-send, data-sourcing), delivering (commit, streamline, harmony, format-notion) and tools around documents, audio and the web. Mostly in French.",
+  "author": { "name": "Anthony Hunt" },
+  "license": "Apache-2.0"
+}
