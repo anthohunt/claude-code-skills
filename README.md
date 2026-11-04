@@ -1,4 +1,4 @@
-# claude-skills — 35 reusable skills for Claude Code
+# claude-code-skills — 35 reusable skills for Claude Code
 
 Working methods packaged as Claude Code [skills](https://docs.anthropic.com/en/docs/claude-code/skills): how to think
 on a hard problem, how to contradict usefully, what to check before sending something to a third party, how to commit,
@@ -10,11 +10,11 @@ how to watch long-running work, how to pick a visual direction, and a few tools 
 ## Install
 
 ```bash
-git clone https://github.com/anthohunt/claude-skills.git
+git clone https://github.com/anthohunt/claude-code-skills.git
 # a) as a plugin, for one session (skills appear as /work-methods:<name>)
-claude --plugin-dir ./claude-skills
+claude --plugin-dir ./claude-code-skills
 # b) or copy the ones you want into your own skills folder (they then appear as /<name>)
-mkdir -p ~/.claude/skills && cp -r claude-skills/skills/think claude-skills/skills/adverse ~/.claude/skills/
+mkdir -p ~/.claude/skills && cp -r claude-code-skills/skills/think claude-code-skills/skills/adverse ~/.claude/skills/
 ```
 
 To plug the same skills folder into several Claude accounts or computers, see the companion repository
