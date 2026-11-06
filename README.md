@@ -1,6 +1,6 @@
 # claude-code-skills — 35 reusable skills for Claude Code
 
-Working methods packaged as Claude Code [skills](https://docs.anthropic.com/en/docs/claude-code/skills): how to think
+Working methods packaged as Claude Code [skills](https://code.claude.com/docs/en/skills): how to think
 on a hard problem, how to contradict usefully, what to check before sending something to a third party, how to commit,
 how to watch long-running work, how to pick a visual direction, and a few tools around documents, audio and calendars.
 
@@ -117,3 +117,7 @@ python3 tests/verifier_skills.py            # every SKILL.md has a valid front m
 - The texts of the skills (`SKILL.md`, references) and `assets/notion.css`: [Creative Commons Attribution 4.0](LICENSE-docs).
 - `skills/brainstorming-design` is derived from the `brainstorming` skill of obra/superpowers, MIT, Copyright (c) 2025 Jesse Vincent
   (`skills/brainstorming-design/LICENSE-superpowers-MIT`).
+
+---
+
+**Anthony Hunt** · [Project page on ingevision.cloud](https://ingevision.cloud/?lang=en&p=outils-claude-code) · [LinkedIn](https://www.linkedin.com/in/anthony-hunt-3948a9196) · [GitHub profile](https://github.com/anthohunt)
