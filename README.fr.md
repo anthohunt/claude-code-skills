@@ -6,7 +6,13 @@
 
 [![Une vraie passe du skill commit : le schéma s'allume flèche par flèche à côté de la vraie trace (cliquer pour la vidéo complète)](docs/demo.gif)](https://drive.google.com/file/d/17zRQ2bHH-K1XyeuRIqARrDjookU4MLwP/view)
 
-*Une vraie passe de `commit` sur un dépôt jetable : un fichier portait deux changements, il a fait deux commits et vérifié l'envoi en 14 s ; animation en anglais. [Vidéo complète (1:20)](https://drive.google.com/file/d/17zRQ2bHH-K1XyeuRIqARrDjookU4MLwP/view)*
+<details><summary>Animation en français</summary>
+
+[![Une vraie passe du skill commit : le schéma s'allume flèche par flèche à côté de la vraie trace (cliquer pour la vidéo complète)](docs/demo.fr.gif)](https://drive.google.com/file/d/1-op3mRoBLTgcF2APOqMViIIUHD8GxhnQ/view)
+
+</details>
+
+*Une vraie passe de `commit` sur un dépôt jetable : un fichier portait deux changements, il a fait deux commits et vérifié l'envoi en 14 s. [Vidéo complète (1:20)](https://drive.google.com/file/d/1-op3mRoBLTgcF2APOqMViIIUHD8GxhnQ/view)*
 
 ## Utilisation
 
