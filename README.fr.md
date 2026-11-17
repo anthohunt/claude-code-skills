@@ -6,7 +6,7 @@
 
 [![Une vraie passe du skill commit : le schéma s'allume flèche par flèche à côté de la vraie trace (cliquer pour la vidéo complète)](docs/demo.gif)](https://drive.google.com/file/d/17zRQ2bHH-K1XyeuRIqARrDjookU4MLwP/view)
 
-<details><summary>Animation en français</summary>
+<details><summary>Version française</summary>
 
 [![Une vraie passe du skill commit : le schéma s'allume flèche par flèche à côté de la vraie trace (cliquer pour la vidéo complète)](docs/demo.fr.gif)](https://drive.google.com/file/d/1-op3mRoBLTgcF2APOqMViIIUHD8GxhnQ/view)
 
