@@ -6,15 +6,16 @@
 
 [![Une vraie passe du skill commit : le schéma s'allume flèche par flèche à côté de la vraie trace (cliquer pour la vidéo complète)](docs/demo.gif)](https://drive.google.com/file/d/17zRQ2bHH-K1XyeuRIqARrDjookU4MLwP/view)
 
-*Une vraie passe de `commit` sur un dépôt jetable : un fichier portait deux changements, il a fait deux commits et vérifié l'envoi, 14 s ; animation en anglais. [Vidéo complète (1:20)](https://drive.google.com/file/d/17zRQ2bHH-K1XyeuRIqARrDjookU4MLwP/view)*
+*Une vraie passe de `commit` sur un dépôt jetable : un fichier portait deux changements, il a fait deux commits et vérifié l'envoi en 14 s ; animation en anglais. [Vidéo complète (1:20)](https://drive.google.com/file/d/17zRQ2bHH-K1XyeuRIqARrDjookU4MLwP/view)*
 
 ## Utilisation
 
-- **Demander avec ses mots.** « commit ça », « challenge-moi », « trouve les failles » : l'agent compare la phrase à la description de chaque skill, ou vous tapez `/work-methods:<nom>`.
-- **Réfléchir et contredire.** `think` cadre un problème difficile et défend une option ; `adverse` lance un agent dont le seul but est de casser votre plan.
-- **Vérifier avant d'agir.** `confirm-external-send` montre le brouillon exact avant que rien ne sorte de la machine ; `data-sourcing` soumet chaque chiffre à un juge adverse.
-- **Livrer.** `commit` coupe des changements mêlés en commits atomiques et vérifie l'envoi ; `harmony` juge une page sur l'image du rendu, jamais sur le code.
-- **Lire avant d'installer.** Chaque skill est un seul fichier Markdown, quelques minutes de lecture, surtout en français ; quatre ont un petit script.
+- **Demander avec ses mots.** « commit ça », « attaque mon raisonnement », « source-moi des chiffres fiables », ou taper `/work-methods:<nom>`.
+- **Se faire contredire.** `adverse` lance un agent dont le seul but est de casser votre plan, avant un long calcul ou une publication.
+- **Rien ne part sans être vu.** `confirm-external-send` montre le mail ou le message exact et attend un oui explicite.
+- **Un historique propre.** `commit` coupe des changements mêlés en commits atomiques et vérifie l'envoi, comme dans l'animation ci-dessus.
+- **Des pages jugées sur l'image.** `harmony` et `streamline` regardent une capture du rendu, jamais le code.
+- **Lire avant d'installer.** Chaque skill est surtout un fichier Markdown, en français pour l'essentiel ; quatre ont un petit script.
 
 ## Les skills
 
@@ -76,8 +77,10 @@
 
 ```bash
 git clone https://github.com/anthohunt/claude-code-skills.git
-claude --plugin-dir ./claude-code-skills          # en plugin : /work-methods:<nom>
-mkdir -p ~/.claude/skills && cp -r claude-code-skills/skills/commit ~/.claude/skills/   # ou en copier un : /commit
+# en plugin : /work-methods:<nom>
+claude --plugin-dir ./claude-code-skills
+# ou copier un seul skill : /commit
+mkdir -p ~/.claude/skills && cp -r claude-code-skills/skills/commit ~/.claude/skills/
 ```
 
 <details><summary>Prérequis, test</summary>

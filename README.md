@@ -6,15 +6,16 @@
 
 [![A real run of the commit skill: the diagram lights up arrow by arrow next to the real trace (click for the full video)](docs/demo.gif)](https://drive.google.com/file/d/17zRQ2bHH-K1XyeuRIqARrDjookU4MLwP/view)
 
-*A real run of `commit` on a throwaway repository: one file held two changes, it made two commits and checked the push, 14 s. [Full video (1:20)](https://drive.google.com/file/d/17zRQ2bHH-K1XyeuRIqARrDjookU4MLwP/view)*
+*A real run of `commit` on a throwaway repository: one file held two changes, it made two commits and checked the push in 14 s; commit messages in French. [Full video (1:20)](https://drive.google.com/file/d/17zRQ2bHH-K1XyeuRIqARrDjookU4MLwP/view)*
 
 ## Using it
 
-- **Ask in your own words.** "commit ça", "challenge-moi", "trouve les failles": the agent matches the phrase against each skill's description, or you type `/work-methods:<name>`.
-- **Think and challenge.** `think` frames a hard problem and defends one option; `adverse` starts an agent whose only job is to break your plan.
-- **Check before acting.** `confirm-external-send` shows the exact draft before anything leaves the machine; `data-sourcing` sends every number to an adversarial judge.
-- **Deliver.** `commit` splits mixed changes into atomic commits and checks the push; `harmony` judges a page on its rendered image, never on the code.
-- **Read before installing.** Each skill is one Markdown file, a few minutes' reading, mostly in French; four come with a small script.
+- **Ask in your own words.** "commit ça", "attaque mon raisonnement", "source-moi des chiffres fiables", or type `/work-methods:<name>`.
+- **Get challenged.** `adverse` starts an agent whose only job is to break your plan, before a long computation or a publication.
+- **Nothing leaves unseen.** `confirm-external-send` shows the exact mail or message and waits for an explicit yes.
+- **Clean history.** `commit` splits mixed changes into atomic commits and checks the push, as in the animation above.
+- **Pages judged on the image.** `harmony` and `streamline` look at a rendered capture, never at the code.
+- **Read before installing.** Each skill is mainly one Markdown file, mostly in French; four come with a small script.
 
 ## The skills
 
@@ -70,14 +71,16 @@
 
 ## Architecture
 
-![claude-code-skills architecture: you ask in a phrase or a slash command; the session matches it against the skill descriptions read at start, loads the SKILL.md, acts with git, files, a browser or command-line tools, runs a skill's script or starts a fresh agent to check the work, then reports with a link or proof](docs/architecture.en.svg)
+![claude-code-skills architecture: you ask in a phrase or a command; the session matches it against the skill descriptions read at start, loads the SKILL.md, acts with git, files, a browser or command-line tools, runs a skill's script or starts a fresh agent to check the work, then reports with a link or proof](docs/architecture.en.svg)
 
 ## Install
 
 ```bash
 git clone https://github.com/anthohunt/claude-code-skills.git
-claude --plugin-dir ./claude-code-skills          # as a plugin: /work-methods:<name>
-mkdir -p ~/.claude/skills && cp -r claude-code-skills/skills/commit ~/.claude/skills/   # or copy one: /commit
+# as a plugin: /work-methods:<name>
+claude --plugin-dir ./claude-code-skills
+# or copy one skill: /commit
+mkdir -p ~/.claude/skills && cp -r claude-code-skills/skills/commit ~/.claude/skills/
 ```
 
 <details><summary>Requirements, test</summary>
