@@ -71,7 +71,13 @@
 
 ## Architecture
 
-![claude-code-skills architecture: you ask in a phrase or a command; the session matches it against the skill descriptions read at start, loads the SKILL.md, acts with git, files, a browser or command-line tools, runs a skill's script or starts a fresh agent to check the work, then reports with a link or proof](docs/architecture.en.svg)
+![claude-code-skills architecture: you ask in a phrase or a command; the session matches it against the skill descriptions read at start, loads the SKILL.md, acts with git, files, a browser or command-line tools, runs a skill's script or starts a fresh agent to check the work, then reports with a link or proof](docs/architecture.svg)
+
+<details><summary>French version</summary>
+
+![Architecture de claude-code-skills : vous demandez par une phrase ou une commande ; la session la compare aux descriptions des skills lues au démarrage, charge le SKILL.md, agit avec git, les fichiers, un navigateur ou des outils en ligne de commande, lance le script d'un skill ou un agent neuf pour vérifier le travail, puis rend compte avec un lien ou une preuve](docs/architecture.fr.svg)
+
+</details>
 
 ## Install
 

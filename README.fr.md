@@ -73,6 +73,12 @@
 
 ![Architecture de claude-code-skills : vous demandez par une phrase ou une commande ; la session la compare aux descriptions des skills lues au démarrage, charge le SKILL.md, agit avec git, les fichiers, un navigateur ou des outils en ligne de commande, lance le script d'un skill ou un agent neuf pour vérifier le travail, puis rend compte avec un lien ou une preuve](docs/architecture.svg)
 
+<details><summary>Diagramme en français</summary>
+
+![Architecture de claude-code-skills : vous demandez par une phrase ou une commande ; la session la compare aux descriptions des skills lues au démarrage, charge le SKILL.md, agit avec git, les fichiers, un navigateur ou des outils en ligne de commande, lance le script d'un skill ou un agent neuf pour vérifier le travail, puis rend compte avec un lien ou une preuve](docs/architecture.fr.svg)
+
+</details>
+
 ## Installation
 
 ```bash
