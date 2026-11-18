@@ -4,15 +4,15 @@
 
 **35 méthodes de travail pour Claude Code, chacune un court texte (`SKILL.md`) que l'agent charge quand votre demande y correspond.**
 
-[![Une vraie passe du skill commit : le schéma s'allume flèche par flèche à côté de la vraie trace (cliquer pour la vidéo complète)](docs/demo.gif)](https://drive.google.com/file/d/17zRQ2bHH-K1XyeuRIqARrDjookU4MLwP/view)
+![Une vraie passe du skill commit : le schéma s'allume flèche par flèche à côté de la vraie trace](docs/demo.gif)
 
 <details><summary>Version française</summary>
 
-[![Une vraie passe du skill commit : le schéma s'allume flèche par flèche à côté de la vraie trace (cliquer pour la vidéo complète)](docs/demo.fr.gif)](https://drive.google.com/file/d/1-op3mRoBLTgcF2APOqMViIIUHD8GxhnQ/view)
+![Une vraie passe du skill commit : le schéma s'allume flèche par flèche à côté de la vraie trace](docs/demo.fr.gif)
 
 </details>
 
-*Une vraie passe de `commit` sur un dépôt jetable : un fichier portait deux changements, il a fait deux commits et vérifié l'envoi en 14 s. [Vidéo complète (1:20)](https://drive.google.com/file/d/1-op3mRoBLTgcF2APOqMViIIUHD8GxhnQ/view)*
+*Une vraie passe de `commit` sur un dépôt jetable : un fichier portait deux changements, il a fait deux commits et vérifié l'envoi en 14 s.*
 
 ## Utilisation
 

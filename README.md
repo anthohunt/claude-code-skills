@@ -4,15 +4,15 @@
 
 **35 working methods for Claude Code, each one a short text (`SKILL.md`) that the agent loads when your request matches it.**
 
-[![A real run of the commit skill: the diagram lights up arrow by arrow next to the real trace (click for the full video)](docs/demo.gif)](https://drive.google.com/file/d/17zRQ2bHH-K1XyeuRIqARrDjookU4MLwP/view)
+![A real run of the commit skill: the diagram lights up arrow by arrow next to the real trace](docs/demo.gif)
 
 <details><summary>French version</summary>
 
-[![Une vraie passe du skill commit : le schéma s'allume flèche par flèche à côté de la vraie trace (cliquer pour la vidéo complète)](docs/demo.fr.gif)](https://drive.google.com/file/d/1-op3mRoBLTgcF2APOqMViIIUHD8GxhnQ/view)
+![Une vraie passe du skill commit : le schéma s'allume flèche par flèche à côté de la vraie trace](docs/demo.fr.gif)
 
 </details>
 
-*A real run of `commit` on a throwaway repository: one file held two changes, it made two commits and checked the push in 14 s; commit messages in French. [Full video (1:20)](https://drive.google.com/file/d/17zRQ2bHH-K1XyeuRIqARrDjookU4MLwP/view)*
+*A real run of `commit` on a throwaway repository: one file held two changes, it made two commits and checked the push in 14 s; commit messages in French.*
 
 ## Using it
 
